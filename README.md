@@ -1,0 +1,14 @@
+# Natural Language SQL Search (Streamlit + PostgreSQL + pgvector)
+
+**Objective:** Build a Natural Language Search Interface to query a PostgreSQL database using Streamlit. Supports hybrid search (LLM → SQL and semantic vector search).
+
+## Features
+- Local PostgreSQL with `pgvector` for embeddings.
+- Local embeddings using `sentence-transformers` (`all-MiniLM-L6-v2`).
+- Local LLM (Ollama + Llama 3) to convert NL → SQL.
+- Safe SQL execution (only `SELECT` allowed) + basic auto-fixes for common LLM mistakes.
+- Streamlit UI with two modes:
+  - **SQL Mode:** natural language → SQL → executed on DB.
+  - **Semantic Mode:** product semantic search using vector similarity.
+
+## Repo Structure
