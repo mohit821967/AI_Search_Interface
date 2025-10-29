@@ -12,3 +12,25 @@
   - **Semantic Mode:** product semantic search using vector similarity.
 
 ## Repo Structure
+
+natural_language_sql_search/
+├── data/ # SQL schema + embedding init script
+├── src/
+│ ├── db/
+│ ├── llm/
+│ ├── ui/
+│ └── utils/
+├── notebooks/
+├── docs/
+├── .env.example
+├── requirements.txt
+└── README.md
+
+
+## Quick Setup (Local, free)
+1. Install PostgreSQL, create DB `nlss_db`, and enable `pgvector`.
+2. Clone repo and create Python venv:
+   ```bash
+   python -m venv .venv
+   .\.venv\Scripts\activate   # Windows
+   pip install -r requirements.txt
