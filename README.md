@@ -13,18 +13,19 @@
 
 ## Repo Structure
 
-natural_language_sql_search/
-├── data/ # SQL schema + embedding init script
-├── src/
-│ ├── db/
-│ ├── llm/
-│ ├── ui/
-│ └── utils/
-├── notebooks/
-├── docs/
-├── .env.example
-├── requirements.txt
-└── README.md
+📂 natural_language_sql_search/
+ ┣ 📁 data/              # SQL schema + embedding init script
+ ┣ 📁 src/
+ ┃ ┣ 📁 db/
+ ┃ ┣ 📁 llm/
+ ┃ ┣ 📁 ui/
+ ┃ ┗ 📁 utils/
+ ┣ 📁 notebooks/
+ ┣ 📁 docs/
+ ┣ 📄 .env.example
+ ┣ 📄 requirements.txt
+ ┗ 📄 README.md
+
 
 
 ## Quick Setup (Local, free)
